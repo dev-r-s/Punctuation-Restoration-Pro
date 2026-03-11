@@ -88,14 +88,16 @@ Training configuration is defined in `config.py`.
 ---
 
 ## 📂 Project Structure
+```
 ├── app.py
 ├── config.py
 ├── dataset.py
 ├── inference_engine.py
 ├── train.py
 ├── requirements.txt
-└── models/
-└── punctuation_restorer/
+└── models
+└── punctuation_restorer
+```
 
 ⚠ Known Limitations
 
@@ -107,6 +109,8 @@ Training configuration is defined in `config.py`.
 
 - Long-Range Context : Context beyond 512 tokens relies on sliding-window merging.
 
+
 👤 Author
+
 Devinder Solanki
 
